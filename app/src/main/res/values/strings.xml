@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TakeNotes</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notes_hint">Notes not found PULL to REFRESH \nor + to ADD New Note</string>
+    <string name="edit_fragment_hint">Notes Edit Fragment</string>
+    <string name="create_note_hint">Create Notes......</string>
+    <string name="enter_your_note_here">Enter Your Note</string>
+    <string name="text_input">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ .</string>
+    <string name="create_note_title">Create Note</string>
+    <string name="notes_list_title">Notes List</string>
+    <string name="edit_note_title">Edit Note</string>
+    <string name="notes_field_must_not_be_empty">Note field must not be empty</string>
+    <string name="edit_note">Edit</string>
+    <string name="delete_note">Delete</string>
+    <string name="note_data_hint">Note One</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="notes_update_success">Notes Updated Successfully</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="notes_update_failed">Notes Update Failed</string>
+    <string name="filterBy">Filter By</string>
+    <string name="sortBy">SORT By</string>
+    <string name="searchNotesHere">Search Note</string>
+    <string name="sortAToZ">Sort A To Z</string>
+    <string name="sortZToA">Sort Z To A</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+</resources>

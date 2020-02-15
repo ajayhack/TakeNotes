@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lv_filter_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="0dp"
+    android:background="@color/colorDimGrey"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/pad_8"
+        app:cardCornerRadius="@dimen/pad_8"
+        app:cardElevation="@dimen/pad_8"
+        android:background="@color/colorWhite"
+        android:layout_margin="@dimen/pad_8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:padding="@dimen/pad_16"
+        android:text="@string/filterBy"
+        android:textColor="@color/colorGreen"
+        android:textSize="@dimen/text_size_medium" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:drawable/divider_horizontal_bright"/>
+
+    <TextView
+        android:id="@+id/todayFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:padding="@dimen/pad_16"
+        android:text="@string/today"
+        android:drawablePadding="@dimen/pad_8"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/text_size_small" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:drawable/divider_horizontal_bright"/>
+
+    <TextView
+        android:id="@+id/yesterdayFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:padding="@dimen/pad_16"
+        android:text="@string/yesterday"
+        android:drawablePadding="@dimen/pad_8"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/text_size_small" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:drawable/divider_horizontal_bright"/>
+
+    <TextView
+        android:id="@+id/weeklyFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:padding="@dimen/pad_16"
+        android:text="@string/weekly"
+        android:drawablePadding="@dimen/pad_8"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/text_size_small" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:drawable/divider_horizontal_bright"/>
+
+    <TextView
+        android:id="@+id/monthlyFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:padding="@dimen/pad_16"
+        android:text="@string/monthly"
+        android:drawablePadding="@dimen/pad_8"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/text_size_small" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:drawable/divider_horizontal_bright"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
